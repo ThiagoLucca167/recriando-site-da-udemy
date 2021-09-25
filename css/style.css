@@ -1,0 +1,405 @@
+/*logo*/
+.udemy{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    margin: 0;
+    top: -15px;
+    position: relative;
+}
+.û{
+    position: relative;
+    top: 26px;
+    left: 1px;
+    color: purple;
+}
+.udemy2{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    margin: 0;
+    top: 6px;
+    position: relative;
+}
+.û2{
+    position: relative;
+    bottom: 20px;
+    left: 20px;
+    color: purple;
+}
+/*Botao de pesquisa*/
+#button-search{
+    position: relative;
+    top: 10px;
+    border-radius: 17px;
+    border-color: transparent;
+}
+#button-search:hover{
+    background-color: transparent;
+    color: black;
+    border-color: transparent;
+    border: transparent;
+}
+#pesquisa{
+    width: 921px;
+    height: 50px;
+    border-radius: 51px;
+    color: black;
+    top: 10px;
+}
+#pesquisa:hover{
+    border-color: black;
+    background-color:#f1f1f1 ;
+    color: rgb(34, 33, 33);
+   cursor:pointer ;
+   transition: 2s;
+}
+#pesquisa:focus{
+    border-color: transparent!important;
+}
+#testarUdemyBusiness{
+    width: 265px;
+    margin: 5px 10px 10px 10px;
+}
+/*DROPS TOPO*/
+#Categoria-Item{
+    position: relative;
+    font-size: 14px;
+    font-weight: bold;
+    top: 20px;
+}
+#UdemyBusiness{
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+
+#EnsinenaUdemy{
+    position: relative;
+    font-size: 14px;
+    font-weight: bold;
+    top: 10px;
+}
+#MeuAprendizado{
+    position: relative;
+    font-size: 14px;
+    right: 25px;
+    top: 10px;
+    font-weight: bold;
+}
+#meuaprendizadoposition{
+    width: 300px;
+}
+/*IMAGENS DROPDOWN TOPO*/
+#Drop-image-topo{
+    width: 100px;
+    height: 65px;
+    padding: 5px 15px 0px 10px;
+}
+#Drop-text-aprendizado{
+    position: relative;
+    bottom: 65px;
+    left: 90px;
+    font-size: 15px;
+    width: 230px;
+}
+#Drop-text-perfil{
+    position: relative;
+    bottom: 20px;
+    left: 100px;
+    font-size: 20px;
+    width: 125px;
+}
+#BarradeConclusao-topo{
+    position: relative;
+    top: -84px;
+    width: 190px;
+    left: 90px;
+    height: 10px;
+}
+li .position-li{
+    position: relative;
+    top: -35px;
+}
+li .position-li3{
+    position: relative;
+    top: -70px;
+    height: 100px;
+}
+li .position-li4{
+    height: 28px;
+    position: relative;
+    top: -55px;
+}
+#separa-apredizagem{
+    /*HR*/
+    position: relative;
+    margin: auto;
+    bottom: 55px;
+    border: 1px solid #f1f1f1;
+}
+#separa-apredizagem2{
+    /*HR*/
+    position: relative;
+    margin: auto;
+    border: 1px solid #f1f1f1;
+    bottom: 90px;
+}
+#separa-apredizagem3{
+    /*HR*/
+    position: relative;
+    margin: auto;
+    bottom: 75px;
+    border: 1px solid #f1f1f1;
+}
+/*SINO MESNSAGENS*/
+#vermensagens{
+    position: relative;
+    left: 30px;
+    bottom: 70px;
+    background-color: white;
+    color: black;
+    border-radius: 0;
+}
+#vermensagens p{
+    position: relative;
+    top: 10px;
+}
+#separa-mensagens{
+    /*HR*/
+    position: relative;
+    margin: auto;
+    bottom: 90px;
+    border: 1px solid #f1f1f1;
+}
+li .position-li-mensagem2{
+    position: relative;
+    bottom: 75px;
+}
+#separa-mensagens2{
+    /*HR*/
+    position: relative;
+    margin: auto;
+    border: 1px solid #f1f1f1;
+    bottom: 130px;
+}
+li .position-li-mensagem3{
+    position: relative;
+    bottom: 95px;
+    height: 100px;
+}
+#separa-mensagens3{
+    /*HR*/
+    position: relative;
+    margin: auto;
+    bottom: 95px;
+    border: 1px solid #f1f1f1;
+}
+/*hrPERFIL*/
+#serpara-perfil{
+    /*HR*/
+    position: relative;
+    margin: auto;
+    bottom: 40px;
+    border: 1px solid #f1f1f1;
+}
+.perfil-design{
+    position: relative;
+    top: -25px;
+    left: 10px;
+    color: #625f5f;
+}
+.perfil-design:hover{
+    color:#5624d0;
+    text-decoration: none;
+}
+#serpara-perfil2{
+    /*HR*/
+    position: relative;
+    margin: auto;
+    bottom: 10px;
+    border: 1px solid #f1f1f1;
+}
+.perfil-design2{
+    position: relative;
+    left: 10px;
+    color: #625f5f;
+}
+.perfil-design2:hover{
+    color:#5624d0;
+    text-decoration: none;
+}
+#serpara-perfil3{
+    /*HR*/
+    position: relative;
+    margin: auto;
+    bottom: 10px;
+    top: 15px;
+    border: 1px solid #f1f1f1;
+}
+.perfil-design3{
+    position: relative;
+    left: 10px;
+    top: 25px;
+    color: #625f5f;
+}
+.perfil-design3:hover{
+    color:#5624d0;
+    text-decoration: none;
+}
+#serpara-perfil4{
+    /*HR*/
+    position: relative;
+    margin: auto;
+    bottom: 10px;
+    top: 35px;
+    border: 1px solid #f1f1f1;
+}
+.portugueseglobal{
+    font-size: 12px;
+    position: relative;
+    left: 135px;
+    margin: 0;
+    top: -20px;
+    width: 66px;
+}
+.portugueseglobal:hover{
+    color:#625f5f;;
+}
+.perfil-design4{
+    position: relative;
+    left: 10px;
+    top: 40px;
+    color: #625f5f;
+}
+.perfil-design4:hover{
+    color:#5624d0;
+    text-decoration: none;
+}
+#serpara-perfil5{
+    /*HR*/
+    position: relative;
+    margin: auto;
+    bottom: 10px;
+    top: 45px;
+    border: 1px solid #f1f1f1;
+}
+.perfil-design5{
+    position: relative;
+    left: 10px;
+    top: 50px;
+    color: #625f5f;
+}
+.perfil-design5:hover{
+    color:#5624d0;
+    text-decoration: none;
+}
+#serpara-perfil6{
+    /*HR*/
+    position: relative;
+    margin: auto;
+    bottom: 10px;
+    top: 60px;
+    border: 1px solid #f1f1f1;
+}
+.perfil-design6{
+    position: relative;
+    left: 10px;
+    top: 65px;
+    color: #625f5f;
+}
+.perfil-design6:hover{
+    color:#5624d0;
+    text-decoration: none;
+}
+#serpara-perfil7{
+    /*HR*/
+    position: relative;
+    margin: auto;
+    bottom: 10px;
+    top: 85px;
+    border: 1px solid #f1f1f1;
+}
+.perfil-design7{
+    position: relative;
+    left: 10px;
+    top: 90px;
+    color: #625f5f;
+}
+.perfil-design7:hover{
+    color:#5624d0;
+    text-decoration: none;
+}
+#perfilbusiness{
+    position: relative;
+    float: right;
+    right: 25px;
+    top: 5px;
+    font-size: 20px;
+}
+#leveparaempresa:hover{
+    color: #625f5f;
+}
+/*ACIMA CONTEUDO PERFIL*/
+.bg-1g{
+    position: relative;
+    top: 10px;
+    font-size: 20px;
+}
+#positioncart{
+    position: absolute;
+    left: -135px;
+}
+#positionsino{
+    position: absolute;
+    left: -300px;
+    top: 60px;
+    width: 330px;
+    height: 540px;
+    border-radius: 0;
+}
+#positionperfil{
+    position: absolute;
+    left: -255px;
+    top: 60px;
+    width: 250px;
+    height: 670px;
+    border-radius: 0;
+}
+.Configurações-de-notificação{
+    position: relative;
+    width: 100px;
+    left: 10px;
+}
+.position-config{
+    position: relative;
+    top: -40px;
+    left: 170px;
+}
+/*Acessados recentemente*/
+.position-acessados{
+    position: relative;
+    left: 10px;
+}
+/*footer*/
+#color-footer{
+    background-color: black;
+}
+.hr-footer{
+    background-color: white;
+    width: 100%;
+    margin: auto;
+}
+#footer-icons strong{
+    position: relative;
+    top: 25px;
+}
+#footer-icons i {
+    position: relative;
+    float: right;
+    font-size: 40px;
+    color: white;
+    padding: 20px;
+}

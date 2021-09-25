@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<hmlt lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale= 1, shrink-to-fit= no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title></title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">         
+            <nav class="navbar navbar-expand-lg navbar-light">
+                    <a href="#" class="nav-brand mx-2" style="text-decoration: none;"><p class="udemy"><i class="fas fa-angle-up û"></i>Udemy</p></a>
+                    <!--CAMPO DROPDOWN-->
+                    <div class="dropdown">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Categoria-Item" aria-controls="Categoria-Drop" aria-expanded="false" aria-label="Categorias">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="Categoria-Item">
+                            <ul class="navbar-nav">
+                              <li class="nav-item dropdown">
+                                <a class="nav-link mb-3 mr-5" href="#" id="Categoria-link" role="button" data-toggle="dropdown" aria-expanded="false">
+                                  Categorias
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="Categoria-link">
+                                  <li><a class="dropdown-item" href="#">Desenvolvimento <i class="fas fa-angle-right pl-5" style="position: relative;left: 75px;"></i></a></li>
+                                  <li><a class="dropdown-item" href="#">Negócios <i class="fas fa-angle-right pl-5" style="position: relative;left: 131px;"></i></a></li>
+                                  <li><a class="dropdown-item" href="#">Finanças e contabilidade<i class="fas fa-angle-right pl-5" style="position: relative;left: 29px;"></i></a></li>
+                                  <li><a class="dropdown-item" href="#">TI e Software<i class="fas fa-angle-right pl-5" style="position: relative;left: 110px;"></i></a></li>
+                                  <li><a class="dropdown-item" href="#">Produtividade no escritório <i class="fas fa-angle-right pl-5" style="position: relative;left: 6px;"></i></a></li>
+                                  <li><a class="dropdown-item" href="#">Desenvolvimento Pessoal<i class="fas fa-angle-right pl-5" style="position: relative;left: 23px;"></i></a></li>
+                                  <li><a class="dropdown-item" href="#">Desing<i class="fas fa-angle-right pl-5" style="position: relative;left: 153px;"></i></a></li>
+                                  <li><a class="dropdown-item" href="#">Marketing<i class="fas fa-angle-right pl-5" style="position: relative;left: 130px;"></i></a></li>
+                                  <li><a class="dropdown-item" href="#">Estilo de vida<i class="fas fa-angle-right pl-5" style="position: relative;left: 108px;"></i></a></li>
+                                  <li><a class="dropdown-item" href="#">Fotografia e vídeo <i class="fas fa-angle-right pl-5" style="position: relative;left: 69px;"></i></a></li>
+                                  <li><a class="dropdown-item" href="#">Saúde e Fitness <i class="fas fa-angle-right pl-5"style="position: relative;left: 88px;"></i></a></li>
+                                  <li><a class="dropdown-item" href="#">Música <i class="fas fa-angle-right pl-5"style="position: relative;left: 147px;"></i></a></li>
+                                  <li><a class="dropdown-item" href="#">Ensino e estudo acadêmico <i class="fas fa-angle-right pl-5"style="position: relative;left:4px;"></i></a></li>
+                                </ul>
+                              </li>
+                            </ul>
+                        </div>
+                    </div>    
+                    <!--Campo Pesquisa-->
+                    <div class="campo-pesquisa">
+                        <div class="input-group mb-3">
+                            <button class="btn btn-outline-secondary" type="button" id="button-search"><i class="fas fa-search"><a href="#"></a></i></button>
+                            <input type="text" class="form-control" id="pesquisa" placeholder="Pesquise Aqui" aria-label="campo pesquisa" aria-describedby="button-search">
+                          </div>
+                    </div>  
+                    <!--OUTROS DROPS-->
+                    <!--UDEMY BUSINESS-->
+                    <button class="navbar-toggler" type="submit" data-toggle="collapse" data-target="#UdemyBusiness" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="UdemyBusiness">
+                        <ul class="navbar-nav">
+                          <li class="nav-item dropdown">
+                            <a class="nav-link mx-2" href="#" id="Udemy-Business" role="button" data-toggle="dropdown" aria-expanded="false">
+                              Udemy Business
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="Udemy-Business">
+                              <li><strong><p id="udemy-business">Sua equipe pode ter acesso a mais de 6.000 cursos de destaque da Udemy a qualquer hora, em qualquer lugar.</p></strong></li>
+                                <li><button class="btn btn-dark" id="testarUdemyBusiness"><p class="font-weight-bold">Testar Udemy Business</p></button></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>       
+                      <!--Ensine na udemy-->       
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#EnsinenaUdemy" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="EnsinenaUdemy">
+                        <ul class="navbar-nav">
+                          <li class="nav-item dropdown">
+                            <a class="nav-link mx-2" href="#" id="Ensine-na-Udemy" role="button" data-toggle="dropdown" aria-expanded="false">
+                              Ensine na Udemy
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="Ensine-na-Udemy">
+                              <li><strong><p id="udemy-business">Transforme o que você sabe em oportunidade e alcance milhões de alunos do mundo todo.</p></strong></li>
+                                <li><button class="btn btn-dark" id="testarUdemyBusiness"><p class="font-weight-bold">Saiba Mais</p></button></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div> 
+                      <!--Meu Apendizado-->
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#MeuAprendizado" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="MeuAprendizado">
+                        <ul class="navbar-nav">
+                          <li class="nav-item dropdown">
+                            <a class="nav-link mx-2" href="#" id="Meu-Aprendizado" role="button" data-toggle="dropdown" aria-expanded="false">
+                              Meu Aprendizado
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="Meu-Aprendizado" id="meuaprendizadoposition">
+                                <!--imagem 1-->
+                              <li><img src="img/topo-drop1.jpeg" alt="html" id="Drop-image-topo"><strong><p id="Drop-text-aprendizado">JavaScript - Curso <br> COMPLETO com 6 Projetos <br> REAIS</p>
+                                <div class="progress" id="BarradeConclusao-topo">
+                                    <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 100%" aria-valuenow="53" aria-valuemin="0" aria-valuemax="100">Concluído</div>
+                                  </div></strong></li>
+                                  <hr id="separa-apredizagem">
+                                  <!--imagem 2-->
+                              <li class="position-li"><img src="img/topo-drop2.jpeg" alt="html" id="Drop-image-topo"><strong><p id="Drop-text-aprendizado">bootstrap 4 - Completo, <br>Prático e Resposivo </p>
+                                <div class="progress" id="BarradeConclusao-topo">
+                                    <div class="progress-bar progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+                                  </div></strong></li>
+                                  <hr id="separa-apredizagem2">
+                                  <!--imagem 3-->
+                              <li class="position-li3"><img src="img/topo-drop3.jpeg" alt="html" id="Drop-image-topo"><strong><p id="Drop-text-aprendizado">Curso de Desenvolvimento <br>WEB com E6S, TypeScript e <br> Angular</p>
+                                <div class="progress" id="BarradeConclusao-topo">
+                                    <div class="progress-bar progress-bar bg-success" role="progressbar" style="width: 35%" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100">35%</div>
+                                  </div></strong></li>
+                                  <hr id="separa-apredizagem3">
+                                  <!--imagem 4-->
+                              <li class="position-li4"><img src="img/topo-drop4.jpeg" alt="html" id="Drop-image-topo"><strong><p id="Drop-text-aprendizado">Curso Completo do <br> Desenvolvedor NodeJS e <br> MongoDB</p>
+                                <div class="progress" id="BarradeConclusao-topo">
+                                    <div class="progress-bar progress-bar bg-success" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">10%</div>
+                                  </div></strong></li>
+                                  <hr id="separa-apredizagem4">
+                                <li><a class="btn btn-dark pt-2" id="testarUdemyBusiness" href="#" role="button"><p class="font-weight-bold">Acessar Meu Aprendizado</p></a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div> 
+                      <!--Coração-->
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#CoracaoDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse bg-1g" id="CoracaoDropdown">
+                        <ul class="navbar-nav">
+                          <li class="nav-item dropdown">
+                            <a class="nav-link mx-2" href="#" id="Coracao-dropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                                <i class="fas fa-heart"></i>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="Coracao-dropdown">
+                              <li><p id="udemy-business" class="text-muted">   Sua lista está vazia.</p></li>
+                              <li><a href="#" style="position: relative; left: 20px;">Veja os cursos</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div> 
+                      <!--Compras-->
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#carrinhodeCompra" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse  bg-1g" id="carrinhodeCompra">
+                        <ul class="navbar-nav">
+                          <li class="nav-item dropdown">
+                            <a class="nav-link mx-2" href="#" id="Compras-cart" role="button" data-toggle="dropdown" aria-expanded="false">
+                                <i class="fas fa-shopping-cart"></i>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="Compras-cart" id="positioncart">
+                              <li><p id="" class="text-muted">Seu carrinho está vazia.</p></li>
+                              <li><a href="#">Continuar comprando</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div> 
+                      <!--SINOS-->
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Sinos" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse  bg-1g" id="Sinos">
+                        <ul class="navbar-nav">
+                          <li class="nav-item dropdown">
+                            <a class="nav-link mx-2" href="#" id="Sinos-mensage" role="button" data-toggle="dropdown" aria-expanded="false">
+                              <i class="fas fa-bell"></i>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="Sinos-mensage"  id="positionsino">
+                             <strong><p class="Configurações-de-notificação">Notificações</p>  <a href="#" class="position-config">Configurações</a>  </strong> 
+                             <li><img src="img/novamensagem.jpeg" alt="html" id="Drop-image-topo"><strong><p id="Drop-text-aprendizado">Jorge Santos e ANA Postaram um anuncio Recente verifique se ...</p>
+                            </strong> <p class="text-muted" style="position: relative; bottom: 80px; left: 90px; font-size: 14px;">Há 1 hora atrás</p></li>
+                                <hr id="separa-mensagens">
+                                <!--imagem 2-->
+                            <li class="position-li-mensagem2"><img src="img/novamensagem2.png" alt="html" id="Drop-image-topo"><strong><p id="Drop-text-aprendizado">Homem de Ferro precisa de sua ajuda para salvar o mundo, Por ...</p>
+                              </strong> <p class="text-muted" style="position: relative; bottom: 80px; left: 90px; font-size: 14px;">Há 1 hora atrás</p></li>
+                                <hr id="separa-mensagens2">
+                                <!--imagem 3-->
+                            <li class="position-li-mensagem3"><img src="img/novamensagem.jpeg" alt="html" id="Drop-image-topo"><strong><p id="Drop-text-aprendizado">Olá my Amigo istsmy Mario veio te traze um recado importante ...</p>
+                            </strong> <p class="text-muted" style="position: relative; bottom: 80px; left: 90px; font-size: 14px;">Há 1 hora atrás</p></li>
+                                <hr id="separa-mensagens3">
+                              <li><a href="#" style="position: relative; top: -70px; font-size: 18px; left: 10px;">Marcar todas como lida</a><a class="btn btn-secondary" id="vermensagens" href="#" role="button"><p class="font-weight-bold">Ver Todas</p></a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div> 
+                      <!--perfil-->
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#perfil" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse  bg-1g" id="perfil">
+                        <ul class="navbar-nav">
+                          <li class="nav-item dropdown">
+                            <a class="nav-link mx-2" href="#" id="perfil-config" role="button" data-toggle="dropdown" aria-expanded="false">
+                              <img src="img/perfil.jpg" style="width: 50px;border-radius: 50%;">
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="peril-config"  id="positionperfil">
+                             <img src="img/perfil.jpg" style="width: 80px;border-radius: 50%;position: relative;left: 10px;top: 28px;">
+                             <li><strong><p id="Drop-text-perfil">Thiago Lucca</p>
+                            </strong> <p class="text-muted" style="position: relative; bottom: 40px; left: 103px; font-size: 13px;">Thiagolucca@gmail.com</p></li>
+                                <hr id="serpara-perfil">
+                                <li><a href="#" class="perfil-design">Meu aprendizado</a></li>
+                                <li><a href="#" class="perfil-design">Meu carrinho</a></li>
+                                <li><a href="#" class="perfil-design">Lista de Desejo</a></li>
+                                <li><a href="#" class="perfil-design">Ensine na Udemy</a></li>
+                                <hr id="serpara-perfil2">
+                                <li><a href="#" class="perfil-design2">Notificações</a></li>
+                                <li><a href="#" class="perfil-design2">Mensagens</a></li>
+                                <hr id="serpara-perfil3">
+                                <li><a href="#" class="perfil-design3">Configurações da conta</a></li>
+                                <li><a href="#" class="perfil-design3">Formas de Pagamento</a></li>
+                                <li><a href="#" class="perfil-design3">Créditos Udemy</a></li>
+                                <li><a href="#" class="perfil-design3">Hitórico de Compra</a></li>
+                                <hr id="serpara-perfil4">
+                                <li><a href="#" class="perfil-design4">Idioma <p class="portugueseglobal">Português<i class="fas fa-globe"></i></p> </a></li>
+                                <hr id="serpara-perfil5">
+                                <li><a href="#" class="perfil-design5">Perfil Público</a></li>
+                                <li><a href="#" class="perfil-design5">Editar Perfil</a></li>
+                                <hr id="serpara-perfil6">
+                                <li><a href="#" class="perfil-design6">Ajuda</a></li>
+                                <li><a href="#" class="perfil-design6">Sair</a></li>
+                                <hr id="serpara-perfil7">
+                                <li><a href="#" class="perfil-design7"><strong>Udemy Business</strong> <i class="fas fa-external-link-alt" id="perfilbusiness"></i>
+                                <p style="font-size: 12px;" id=leveparaempresa>leve o aprendizado para sua empresa</p>
+                                </a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div> 
+             </nav>
+      </div>
+    </div>
+
+      <div class="container-fluid bg-dark">
+        <div class="row">
+          <div class="container">
+            <div class="vision">
+              <p style="color: white; font-size: 40px;margin-top: 30px;">Meu Aprendizado</p>
+            </div>
+              <div class="row col-12">
+                <div class="col-3">
+                  <a href="#" style="text-decoration: none;"><p style="font-size: 20px; color: white;font-weight: 400;">Todos os cursos</p></a>
+                </div>
+                <div class="col-3">
+                  <a href="#" style="text-decoration: none;"><p style="font-size: 20px; color: white;font-weight: 400; position: relative; right:70px;">Lista</p></a>
+                </div>
+                <div class="col-3">
+                  <a href="#" style="text-decoration: none;"><p style="font-size: 20px; color: white;font-weight: 400; position: relative; right:240px;">Lista de Desejos</p></a>
+                </div>
+                <div class="col-3">
+                  <a href="#" style="text-decoration: none;"><p style="font-size: 20px; color: white;font-weight: 400; position: relative; right:310px;">Aquirvados</p></a>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+              <div class="row col-12">
+                <div class="col-2">
+                  <!--Acessados Recentemente-->
+                  <label for="acessadorecente">Classificar por</label>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#acessadorecente" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="acessadorecente" style="width: 241px;position: relative; right: 10px;">
+                    <ul class="navbar-nav">
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle mx-2 font-weight-bold" href="#" style="border: 1px solid; color: black;" id="acessado-recente" role="button" data-toggle="dropdown" aria-expanded="false">
+                            Acessados Recentemente
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="acessado-recente" style="width: 200px; position: absolute;left: 7px;">
+                          <li><a href="#" class="text-muted"><p class="position-acessados">Acessados recentemente</p></a></li>
+                          <li><a href="#" class="text-muted"><p class="position-acessados">Inscritos recentemente</p></a></li>
+                          <li><a href="#" class="text-muted"><p class="position-acessados">Titulo: de A á Z</p></a></li>
+                          <li><a href="#" class="text-muted"><p class="position-acessados">Titulo: de Z á A</p></a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div> 
+                </div>
+                <div class="col-2">
+                  <!--CATEGORIAS-->
+                  <label for="acessadorecente" style="position: relative;left: 67px;">Filtrar por</label>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#acessadorecente" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="acessadorecente" style="width: 132px;position: relative; left: 60px;">
+                    <ul class="navbar-nav">
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle mx-2 font-weight-bold" href="#" style="border: 1px solid; color: black;" id="acessado-recente" role="button" data-toggle="dropdown" aria-expanded="false">
+                            Categorias
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="acessado-recente" style="width: 160px; position:absolute;left: 7px;">
+                          <li><a href="#" class="text-muted"><p class="position-acessados">Favoritos</p></a></li>
+                          <hr>
+                          <li><a href="#" class="text-muted"><p class="position-acessados">Todas as categorias</p></a></li>
+                          <li><a href="#" class="text-muted"><p class="position-acessados">Desenvolvimento</p></a></li>
+                          <li><a href="#" class="text-muted"><p class="position-acessados">TI e Software</p></a></li>
+                          <hr>
+                          <li><a href="#" class="text-muted"><p class="position-acessados">Arquivados</p></a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div> 
+                </div>
+                <div class="col-2">
+                  <!--PROGRESSO-->
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#acessadorecente" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="acessadorecente" style="width: 130px;position: relative; left: 60px;">
+                    <ul class="navbar-nav">
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle mx-2 font-weight-bold" href="#" style="border: 1px solid;color: black;position: relative; right: 39px;top: 32px;" id="acessado-recente" role="button" data-toggle="dropdown" aria-expanded="false">
+                            Progresso
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="acessado-recente" style="position:absolute;left:-32px;top: 74px;">
+                          <li><a href="#" class="text-muted"><p class="position-acessados">Concluído</p></a></li>
+                          <li><a href="#" class="text-muted"><p class="position-acessados">Em andamento</p></a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div> 
+                </div>
+                <div class="col-2">
+                  <!--instrutor-->
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#acessadorecente" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="acessadorecente" style="width: 130px;position: relative; left: 60px;">
+                    <ul class="navbar-nav">
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle mx-2 font-weight-bold" href="#" style="border: 1px solid;color: black;position: relative; right: 80px;top: 32px;" id="acessado-recente" role="button" data-toggle="dropdown" aria-expanded="false">
+                            Instrutor
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="acessado-recente" style="width:175px;position:absolute;left:-73px;top: 74px;">
+                          <li><a href="#" class="text-muted"><p class="position-acessados">Djalma Sindeaux</p></a></li>
+                          <li><a href="#" class="text-muted"><p class="position-acessados">Emerson Carvalho</p></a></li>
+                          <li><a href="#" class="text-muted"><p class="position-acessados">Geek Unversity</p></a></li>
+                          <li><a href="#" class="text-muted"><p class="position-acessados">Glaucio Daniel</p></a></li>
+                          <li><a href="#" class="text-muted"><p class="position-acessados">Hcode Treonamentos</p></a></li>
+                          <li><a href="#" class="text-muted"><p class="position-acessados">João Rangel</p></a></li>
+                          <li><a href="#" class="text-muted"><p class="position-acessados">João Rubens</p></a></li>
+                          <li><a href="#" class="text-muted"><p class="position-acessados">Jorge Sant Ana</p></a></li>
+                          <li><a href="#" class="text-muted"><p class="position-acessados">Ponto Cursos</p></a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div> 
+                </div>
+                <div class="col-2">
+                  <button disabled class="btn btn-link" style="position: relative;top: 30px;left: -70px;font-size: 19px;">Redefinir</button>
+                </div>
+                <div class="col-2">
+                  <div class="col-12">
+                    <div class="input-group mb-3" style="width: 250px;position: relative;top: 35px; right: 130px;">
+                      <input type="text" class="form-control bg-buscainteresse" placeholder="Pesquise aqui ..." aria-label="Campo de busca" aria-describedby="Campo Pesquisa">
+                      <button class="btn btn-outline-secondary bg-buttoninteresse" type="button" id="busca-conteudo"><i class="fas fa-search"><a href="#"></a></i></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+      
+      <div class="container-fluid">
+        <div class="row">
+          <div class="container mt-5">
+              <div class="row col-6">
+                <!--Curso imagem 1-->
+                <div class="col-3">
+                  <div class="card" style="width: 210px;height: 325px;">
+                    <img src="img/curso-exemplo.jfif" class="card-img-top" alt="...">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuconfig" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse  bg-1g" id="menuconfig" style="position: relative;top: -137px;left: 153px;">
+                        <ul class="navbar-nav">
+                          <li class="nav-item dropdown">
+                            <a style="background-color: white;" class="nav-link mx-2" href="#" id="menu-config" role="button" data-toggle="dropdown" aria-expanded="false">
+                              <i class="fas fa-ellipsis-v"></i>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="menu-config" style="position: absolute;left: -185px;">
+                              <li class="nav-item"><p class="text-muted" style="padding-left:10px;">Listas</p></li>
+                              <li class="nav-item"><p class="text-muted" style="font-size: 13px; padding-left: 10px;">Você não tem nenhuma lista</p></li>
+                              <hr>
+                              <li><a href="#" style="padding-left:10px;color:#3b3e41;"><i class="fas fa-share" style="color: black;"></i> Compartilhar</a></li>
+                              <li><a href="#" style="padding-left:10px;color:#3b3e41;"><i class="fas fa-plus" style="color: black;"></i> Criar Nova Lista</a></li>
+                              <li><a href="#" style="padding-left:10px;color:#3b3e41;"><i class="fas fa-star" style="color: black;"></i> Marcar como Favorito</a></li>
+                              <li><a href="#" style="padding-left:10px;color:#3b3e41;"><i class="fas fa-folder" style="color: black;"></i> Arquivar</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div> 
+                    </nav>            
+                    <div class="card-body" style="position:relative;top:-55px;">
+                      <h5 class="card-title" style="font-size: 15px;">JavaScript - Curso COMPLETO com 6 Projetos REAIS</h5>
+                      <p class="card-text" style="font-size: 11px;">Hcode treinamentos, Cursos</p>
+                      <a href="#" class="btn btn-secondary" style="width: 170px;border-color: transparent;">Acessar curso</a>
+                    </div>
+                  </div>
+                </div>
+                <!--curso imagem 2-->
+                <div class="col-3" style="position: relative;left: 85px;">
+                  <div class="card" style="width: 210px;height: 325px;">
+                    <img src="img/curso-exemplo2.jfif" class="card-img-top" alt="...">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuconfig" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse  bg-1g" id="menuconfig" style="position: relative;top: -137px;left: 153px;">
+                        <ul class="navbar-nav">
+                          <li class="nav-item dropdown">
+                            <a style="background-color: white;position: relative; top: 5px;" class="nav-link mx-2" href="#" id="menu-config" role="button" data-toggle="dropdown" aria-expanded="false">
+                              <i class="fas fa-ellipsis-v"></i>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="menu-config" style="position: absolute;left: -185px;">
+                              <li class="nav-item"><p class="text-muted" style="padding-left:10px;">Listas</p></li>
+                              <li class="nav-item"><p class="text-muted" style="font-size: 13px; padding-left: 10px;">Você não tem nenhuma lista</p></li>
+                              <hr>
+                              <li><a href="#" style="padding-left:10px;color:#3b3e41;"><i class="fas fa-share" style="color: black;"></i> Compartilhar</a></li>
+                              <li><a href="#" style="padding-left:10px;color:#3b3e41;"><i class="fas fa-plus" style="color: black;"></i> Criar Nova Lista</a></li>
+                              <li><a href="#" style="padding-left:10px;color:#3b3e41;"><i class="fas fa-star" style="color: black;"></i> Marcar como Favorito</a></li>
+                              <li><a href="#" style="padding-left:10px;color:#3b3e41;"><i class="fas fa-folder" style="color: black;"></i> Arquivar</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div> 
+                    </nav>            
+                    <div class="card-body" style="position:relative;top:-55px;">
+                      <h5 class="card-title" style="font-size: 15px;">JavaScript - Curso COMPLETO com 6 Projetos REAIS</h5>
+                      <p class="card-text" style="font-size: 11px;">Hcode treinamentos, Cursos</p>
+                      <a href="#" class="btn btn-secondary" style="width: 170px;border-color: transparent;">Acessar curso</a>
+                    </div>
+                  </div>
+                </div>
+                <!--curso imagem 3-->
+                <div class="col-3" style="position: relative;left: 170px;">
+                  <div class="card" style="width: 210px;height: 325px;">
+                    <img src="img/curso-exemplo3.jfif" class="card-img-top" alt="...">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuconfig" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse  bg-1g" id="menuconfig" style="position: relative;top: -137px;left: 153px;">
+                        <ul class="navbar-nav">
+                          <li class="nav-item dropdown">
+                            <a style="background-color: white;position: relative; top: -2px;" class="nav-link mx-2" href="#" id="menu-config" role="button" data-toggle="dropdown" aria-expanded="false">
+                              <i class="fas fa-ellipsis-v"></i>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="menu-config" style="position: absolute;left: -185px;">
+                              <li class="nav-item"><p class="text-muted" style="padding-left:10px;">Listas</p></li>
+                              <li class="nav-item"><p class="text-muted" style="font-size: 13px; padding-left: 10px;">Você não tem nenhuma lista</p></li>
+                              <hr>
+                              <li><a href="#" style="padding-left:10px;color:#3b3e41;"><i class="fas fa-share" style="color: black;"></i> Compartilhar</a></li>
+                              <li><a href="#" style="padding-left:10px;color:#3b3e41;"><i class="fas fa-plus" style="color: black;"></i> Criar Nova Lista</a></li>
+                              <li><a href="#" style="padding-left:10px;color:#3b3e41;"><i class="fas fa-star" style="color: black;"></i> Marcar como Favorito</a></li>
+                              <li><a href="#" style="padding-left:10px;color:#3b3e41;"><i class="fas fa-folder" style="color: black;"></i> Arquivar</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div> 
+                    </nav>            
+                    <div class="card-body" style="position:relative;top:-55px;">
+                      <h5 class="card-title" style="font-size: 15px;">JavaScript - Curso COMPLETO com 6 Projetos REAIS</h5>
+                      <p class="card-text" style="font-size: 11px;">Hcode treinamentos, Cursos</p>
+                      <a href="#" class="btn btn-secondary" style="width: 170px;border-color: transparent;">Acessar curso</a>
+                    </div>
+                  </div>
+                </div>
+                <!--curso imagem 4-->
+                <div class="col-3" style="position: relative;left: 255px;">
+                  <div class="card" style="width: 210px;height: 325px;">
+                    <img src="img/curso-exemplo.jfif" class="card-img-top" alt="...">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuconfig" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse  bg-1g" id="menuconfig" style="position: relative;top: -137px;left: 153px;">
+                        <ul class="navbar-nav">
+                          <li class="nav-item dropdown">
+                            <a style="background-color: white;position: relative; top: -2px;" class="nav-link mx-2" href="#" id="menu-config" role="button" data-toggle="dropdown" aria-expanded="false">
+                              <i class="fas fa-ellipsis-v"></i>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="menu-config" style="position: absolute;left: -185px;">
+                              <li class="nav-item"><p class="text-muted" style="padding-left:10px;">Listas</p></li>
+                              <li class="nav-item"><p class="text-muted" style="font-size: 13px; padding-left: 10px;">Você não tem nenhuma lista</p></li>
+                              <hr>
+                              <li><a href="#" style="padding-left:10px;color:#3b3e41;"><i class="fas fa-share" style="color: black;"></i> Compartilhar</a></li>
+                              <li><a href="#" style="padding-left:10px;color:#3b3e41;"><i class="fas fa-plus" style="color: black;"></i> Criar Nova Lista</a></li>
+                              <li><a href="#" style="padding-left:10px;color:#3b3e41;"><i class="fas fa-star" style="color: black;"></i> Marcar como Favorito</a></li>
+                              <li><a href="#" style="padding-left:10px;color:#3b3e41;"><i class="fas fa-folder" style="color: black;"></i> Arquivar</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div> 
+                    </nav>            
+                    <div class="card-body" style="position:relative;top:-55px;">
+                      <h5 class="card-title" style="font-size: 15px;">JavaScript - Curso COMPLETO com 6 Projetos REAIS</h5>
+                      <p class="card-text" style="font-size: 11px;">Hcode treinamentos, Cursos</p>
+                      <a href="#" class="btn btn-secondary" style="width: 170px;border-color: transparent;">Acessar curso</a>
+                    </div>
+                  </div>
+                </div>
+              <div class="row col-6 mt-3">
+                              <!--Curso imagem 5-->
+                              <div class="col-3">
+                                <div class="card" style="width: 210px;height: 325px;">
+                                  <img src="img/curso-exemplo5.jfif" class="card-img-top" alt="...">
+                                  <nav class="navbar navbar-expand-lg navbar-light">
+                                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuconfig" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                                      <span class="navbar-toggler-icon"></span>
+                                    </button>
+                                    <div class="collapse navbar-collapse  bg-1g" id="menuconfig" style="position: relative;top: -137px;left: 153px;">
+                                      <ul class="navbar-nav">
+                                        <li class="nav-item dropdown">
+                                          <a style="background-color: #c7c7c7;top: 20px;position: relative;" class="nav-link mx-2" href="#" id="menu-config" role="button" data-toggle="dropdown" aria-expanded="false">
+                                            <i class="fas fa-ellipsis-v"></i>
+                                          </a>
+                                          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="menu-config" style="position: absolute;left: -185px;">
+                                            <li class="nav-item"><p class="text-muted" style="padding-left:10px;">Listas</p></li>
+                                            <li class="nav-item"><p class="text-muted" style="font-size: 13px; padding-left: 10px;">Você não tem nenhuma lista</p></li>
+                                            <hr>
+                                            <li><a href="#" style="padding-left:10px;color:#3b3e41;"><i class="fas fa-share" style="color: black;"></i> Compartilhar</a></li>
+                                            <li><a href="#" style="padding-left:10px;color:#3b3e41;"><i class="fas fa-plus" style="color: black;"></i> Criar Nova Lista</a></li>
+                                            <li><a href="#" style="padding-left:10px;color:#3b3e41;"><i class="fas fa-star" style="color: black;"></i> Marcar como Favorito</a></li>
+                                            <li><a href="#" style="padding-left:10px;color:#3b3e41;"><i class="fas fa-folder" style="color: black;"></i> Arquivar</a></li>
+                                          </ul>
+                                        </li>
+                                      </ul>
+                                    </div> 
+                                  </nav>            
+                                  <div class="card-body" style="position:relative;top:-55px;">
+                                    <h5 class="card-title" style="font-size: 15px;">JavaScript - Curso COMPLETO com 6 Projetos REAIS</h5>
+                                    <p class="card-text" style="font-size: 11px;">Hcode treinamentos, Cursos</p>
+                                    <a href="#" class="btn btn-secondary" style="width: 170px;border-color: transparent;">Acessar curso</a>
+                                  </div>
+                                </div>
+                              </div>
+                              <!--curso imagem 6-->
+                              <div class="col-3" style="position: relative;left: 158px;">
+                                <div class="card" style="width: 210px;height: 325px;">
+                                  <img src="img/curso-exemplo6.jfif" class="card-img-top" alt="...">
+                                  <nav class="navbar navbar-expand-lg navbar-light">
+                                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuconfig" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                                      <span class="navbar-toggler-icon"></span>
+                                    </button>
+                                    <div class="collapse navbar-collapse  bg-1g" id="menuconfig" style="position: relative;top: -137px;left: 153px;">
+                                      <ul class="navbar-nav">
+                                        <li class="nav-item dropdown">
+                                          <a style="background-color: white; position: relative; top: 5px;" class="nav-link mx-2" href="#" id="menu-config" role="button" data-toggle="dropdown" aria-expanded="false">
+                                            <i class="fas fa-ellipsis-v"></i>
+                                          </a>
+                                          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="menu-config" style="position: absolute;left: -185px;">
+                                            <li class="nav-item"><p class="text-muted" style="padding-left:10px;">Listas</p></li>
+                                            <li class="nav-item"><p class="text-muted" style="font-size: 13px; padding-left: 10px;">Você não tem nenhuma lista</p></li>
+                                            <hr>
+                                            <li><a href="#" style="padding-left:10px;color:#3b3e41;"><i class="fas fa-share" style="color: black;"></i> Compartilhar</a></li>
+                                            <li><a href="#" style="padding-left:10px;color:#3b3e41;"><i class="fas fa-plus" style="color: black;"></i> Criar Nova Lista</a></li>
+                                            <li><a href="#" style="padding-left:10px;color:#3b3e41;"><i class="fas fa-star" style="color: black;"></i> Marcar como Favorito</a></li>
+                                            <li><a href="#" style="padding-left:10px;color:#3b3e41;"><i class="fas fa-folder" style="color: black;"></i> Arquivar</a></li>
+                                          </ul>
+                                        </li>
+                                      </ul>
+                                    </div> 
+                                  </nav>            
+                                  <div class="card-body" style="position:relative;top:-55px;">
+                                    <h5 class="card-title" style="font-size: 15px;">JavaScript - Curso COMPLETO com 6 Projetos REAIS</h5>
+                                    <p class="card-text" style="font-size: 11px;">Hcode treinamentos, Cursos</p>
+                                    <a href="#" class="btn btn-secondary" style="width: 170px;border-color: transparent;">Acessar curso</a>
+                                  </div>
+                                </div>
+                              </div>
+                              <!--curso imagem 7-->
+                              <div class="col-3" style="position: relative;left: 316px;">
+                                <div class="card" style="width: 210px;height: 325px;">
+                                  <img src="img/curso-exemplo7.jfif" class="card-img-top" alt="...">
+                                  <nav class="navbar navbar-expand-lg navbar-light">
+                                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuconfig" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                                      <span class="navbar-toggler-icon"></span>
+                                    </button>
+                                    <div class="collapse navbar-collapse  bg-1g" id="menuconfig" style="position: relative;top: -137px;left: 153px;">
+                                      <ul class="navbar-nav">
+                                        <li class="nav-item dropdown">
+                                          <a style="background-color: white; position: relative; top: -7px;" class="nav-link mx-2" href="#" id="menu-config" role="button" data-toggle="dropdown" aria-expanded="false">
+                                            <i class="fas fa-ellipsis-v"></i>
+                                          </a>
+                                          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="menu-config" style="position: absolute;left: -185px;">
+                                            <li class="nav-item"><p class="text-muted" style="padding-left:10px;">Listas</p></li>
+                                            <li class="nav-item"><p class="text-muted" style="font-size: 13px; padding-left: 10px;">Você não tem nenhuma lista</p></li>
+                                            <hr>
+                                            <li><a href="#" style="padding-left:10px;color:#3b3e41;"><i class="fas fa-share" style="color: black;"></i> Compartilhar</a></li>
+                                            <li><a href="#" style="padding-left:10px;color:#3b3e41;"><i class="fas fa-plus" style="color: black;"></i> Criar Nova Lista</a></li>
+                                            <li><a href="#" style="padding-left:10px;color:#3b3e41;"><i class="fas fa-star" style="color: black;"></i> Marcar como Favorito</a></li>
+                                            <li><a href="#" style="padding-left:10px;color:#3b3e41;"><i class="fas fa-folder" style="color: black;"></i> Arquivar</a></li>
+                                          </ul>
+                                        </li>
+                                      </ul>
+                                    </div> 
+                                  </nav>            
+                                  <div class="card-body" style="position:relative;top:-55px;">
+                                    <h5 class="card-title" style="font-size: 15px;">JavaScript - Curso COMPLETO com 6 Projetos REAIS</h5>
+                                    <p class="card-text" style="font-size: 11px;">Hcode treinamentos, Cursos</p>
+                                    <a href="#" class="btn btn-secondary" style="width: 170px;border-color: transparent;">Acessar curso</a>
+                                  </div>
+                                </div>
+                              </div>
+                              <!--curso imagem 8-->
+                              <div class="col-3" style="position: relative;left: 474px;">
+                                <div class="card" style="width: 210px;height: 325px;">
+                                  <img src="img/curso-exemplo.jfif" class="card-img-top" alt="...">
+                                  <nav class="navbar navbar-expand-lg navbar-light">
+                                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuconfig" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                                      <span class="navbar-toggler-icon"></span>
+                                    </button>
+                                    <div class="collapse navbar-collapse  bg-1g" id="menuconfig" style="position: relative;top: -137px;left: 153px;">
+                                      <ul class="navbar-nav">
+                                        <li class="nav-item dropdown">
+                                          <a style="background-color: white;position: relative;left: -2px;" class="nav-link mx-2" href="#" id="menu-config" role="button" data-toggle="dropdown" aria-expanded="false">
+                                            <i class="fas fa-ellipsis-v"></i>
+                                          </a>
+                                          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="menu-config" style="position: absolute;left: -185px;">
+                                            <li class="nav-item"><p class="text-muted" style="padding-left:10px;">Listas</p></li>
+                                            <li class="nav-item"><p class="text-muted" style="font-size: 13px; padding-left: 10px;">Você não tem nenhuma lista</p></li>
+                                            <hr>
+                                            <li><a href="#" style="padding-left:10px;color:#3b3e41;"><i class="fas fa-share" style="color: black;"></i> Compartilhar</a></li>
+                                            <li><a href="#" style="padding-left:10px;color:#3b3e41;"><i class="fas fa-plus" style="color: black;"></i> Criar Nova Lista</a></li>
+                                            <li><a href="#" style="padding-left:10px;color:#3b3e41;"><i class="fas fa-star" style="color: black;"></i> Marcar como Favorito</a></li>
+                                            <li><a href="#" style="padding-left:10px;color:#3b3e41;"><i class="fas fa-folder" style="color: black;"></i> Arquivar</a></li>
+                                          </ul>
+                                        </li>
+                                      </ul>
+                                    </div> 
+                                  </nav>            
+                                  <div class="card-body" style="position:relative;top:-55px;">
+                                    <h5 class="card-title" style="font-size: 15px;">JavaScript - Curso COMPLETO com 6 Projetos REAIS</h5>
+                                    <p class="card-text" style="font-size: 11px;">Hcode treinamentos, Cursos</p>
+                                    <a href="#" class="btn btn-secondary" style="width: 170px;border-color: transparent;">Acessar curso</a>
+                                  </div>
+                                </div>
+                              </div>
+              </div>
+  
+          </div>
+        </div>
+        </div>
+      </div>
+      <div class="container-fluid mt-5" id="color-footer">
+        <footer>
+          <div class="row">
+              <div class="col-12">
+                <strong style="font-size: 40px; color: white;">Compartilhe seu conhecimento</strong>
+                <p class="text-light">Crie um curso em vídeo online, atraia alunos do mundo todo e ganhe dinheiro</p>
+                <button class="btn btn-secondary" type="button" style="position: relative;float: right;bottom: 70px;right: 50px;background-color: transparent;border: 1px solid;border-radius: 0;">Ensinar na Udemy</button>
+              </div>
+              <hr class="hr-footer">
+              <div class="col-12" id="footer-icons"> 
+                  <strong style="color: white;font-size: 20px;">As melhores empresas escolhem a <a href="#" style="color: #cec0fc;">Udemy Business</a> para desenvolver as habilidades de carreira necessárias.</strong>
+                  <i class="fab fa-apple"></i> <i class="fab fa-xbox"></i> <i class="fas fa-building"></i> <i class="fab fa-youtube"></i> <i class="fas fa-calendar-week"></i>
+              </div>
+              <hr class="hr-footer">
+              <div class="row col-12 mt-1">
+                <div class="col-2">
+                  <ul style="list-style: none;">
+                    <li><a href="#" style="color: white;">Udemy Business</a></li>
+                    <li><a href="#" style="color: white;">Ensine na Udemy</a></li>
+                    <li><a href="#" style="color: white;">Obtenha o aplicativo</a></li>
+                    <li><a href="#" style="color: white;">Quem somos</a></li>
+                    <li><a href="#" style="color: white;">Fale conosco</a></li>
+                  </ul>
+                </div>
+                <div class="col-2">
+                  <ul style="list-style: none;">
+                    <li><a href="#" style="color: white;">Carreiras</a></li>
+                    <li><a href="#" style="color: white;">Blog</a></li>
+                    <li><a href="#" style="color: white;">Ajuda e Suporte</a></li>
+                    <li><a href="#" style="color: white;">Afiliado</a></li>
+                  </ul>
+                </div>
+                <div class="col-6">
+                  <ul style="list-style: none;">
+                    <li><a href="#" style="color: white;">Termos</a></li>
+                    <li><a href="#" style="color: white;">Politica de Priacidade</a></li>
+                    <li><a href="#" style="color: white;">Mapa do site</a></li>
+                  </ul>
+                </div>
+                <div class="col-2">
+                <button class="btn btn-secondary" type="button" style="position: relative;float: right;top:25px;right: 50px;background-color: transparent;border: 1px solid;border-radius: 0;"><i class="fas fa-globe"></i> Português</button>
+                  
+                </div>
+              </div>
+              <div class="row col-12">
+                <div class="col-6">
+                <a href="#" class="nav-brand mx-2" style="text-decoration: none;"><p class="udemy2" style="color: white;position: relative;margin: 0;top: 10px;"><i class="fas fa-angle-up û2"></i>Udemy</p></a>
+                </div>
+                <div class="col-6">
+                <p class="text-light" style="position: relative;float: right;top: 45px;margin: 0;font-size: 13px;">© 2021 Udemy, Inc.</p>
+                </div>
+              </div>
+          </div>
+        </footer>
+      </div>
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+  </body>
+</hmlt>
