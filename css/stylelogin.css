@@ -1,0 +1,8 @@
+#motherofall{
+display: flex;
+flex-direction: row;
+}
+.ajusteposition{
+    display: flex;
+    flex-direction: row;
+}
