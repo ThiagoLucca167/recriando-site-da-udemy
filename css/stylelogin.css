@@ -1,8 +1,55 @@
+.bg-color{
+background: linear-gradient(131.26deg, rgba(113, 114, 111, 0.342) 30%, rgb(56, 59, 53) 50%, rgb(0, 0, 0) 100%);
+}
+.btncolor{
+    background: linear-gradient(131.26deg, rgb(65, 147, 255) 50%, rgb(97, 152, 255) 50%);
+}
 #motherofall{
 display: flex;
 flex-direction: row;
 }
+.bgcontborder{
+    border-radius: 0.75rem;
+    background-color: #dbdee1!important;
+}
 .ajusteposition{
     display: flex;
     flex-direction: row;
+}
+.ajusteposition2{
+    display: flex;
+    flex-direction: column;
+}
+.lembrar-senha{
+    display: flex;
+}
+.logintext{
+    font-size: 2rem;
+    margin: auto;
+    position: relative;
+    left: -50px;
+}
+.logintext i{
+    position: relative;
+    top: -22px;
+    left: 21px;
+    color: blueviolet;
+}
+.pager{
+    padding-left: 70px;
+    margin: 20px;
+    position: relative;
+    top: -8px;
+}
+.pager2{
+    padding-left: 270px;
+    margin: 20px;
+    position: relative;
+    top: -8px;
+}
+.pager2li{
+    padding-left: 90px;
+    margin: 20px;
+    position: relative;
+    top: -8px;
 }
