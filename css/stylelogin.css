@@ -53,3 +53,77 @@ flex-direction: row;
     position: relative;
     top: -8px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/*EDITORDEPERFIL ABAIXO*/
+
+#image-perfil{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 1px solid;
+}
+
+#escolha-perfil{
+    color: rgb(49, 47, 47);
+    text-decoration: none;
+}
+#escolha-perfil:hover{
+    color: #fff;
+    border-color: #6a6f73;
+    background: #6a6f73!important;
+    text-decoration: none;
+}
+
+.todoinput{
+    border: 1px solid;
+
+}
+.lineform{
+    width: 826px;
+    color: #6a6f73;
+    position: relative;
+    right: 31px;
+}
+.p60{
+    position: relative;
+    float: right;
+    bottom: 31px;
+    height: 25px;
+    right: 8px;
+    background-color: #f0f3f7;
+    border: none;
+}
+#selecioneidioma{
+    width: 725px;
+    text-align: center;
+    height: 50px;
+    border: 1px solid;
+    font-weight: bolder;
+}
+.btnColor{
+    position: relative;
+    left: 320px;
+    background-color: #11ba24;
+    border-color: #11ba24;
+}
+.btnColor:hover{
+    position: relative;
+    left: 320px;
+    transition: 1s;
+    background-color: #01700e;
+    border-color: #01700e;
+}
+.btnColor p{
+    font-weight: bolder;
+}
