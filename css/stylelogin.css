@@ -127,3 +127,19 @@ flex-direction: row;
 .btnColor p{
     font-weight: bolder;
 }
+.imagePerfil{
+    border: 1px solid;
+    padding: 15px;
+}
+.perfilfoto{
+    position: relative;
+    text-align: center;
+    height: 280px;
+    background-color:#b4b4b429;
+    font-size: 207px;
+    color: darkgray;
+}
+.perfilfoto i{
+    position: relative;
+    top: -20px;
+}
