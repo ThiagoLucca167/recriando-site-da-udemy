@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perfil</title>
+    <title>Conta</title>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/stylelogin.css">
@@ -247,9 +247,9 @@
                             <h4 class="text-center my-3">Thiago</h4>
 
                             <a id="escolha-perfil" href="#"><span>Visualizar Perfil Público</span></a>
-                            <a id="escolha-perfil" href="#" style=" color: #fff;border-color: #6a6f73;background: #6a6f73!important;text-decoration: none;"><span>Perfil</span></a>
+                            <a id="escolha-perfil" href="editordeperfil.html" ><span>Perfil</span></a>
                             <a id="escolha-perfil" href="foto.html"><span>Foto</span></a>
-                            <a id="escolha-perfil" href="conta.html"><span>Conta</span></a>
+                            <a id="escolha-perfil" href="#" style=" color: #fff;border-color: #6a6f73;background: #6a6f73!important;text-decoration: none;"><span>Conta</span></a>
                             <a id="escolha-perfil" href="#"><span>Formas de Pagamento</span></a>
                             <a id="escolha-perfil" href="#"><span>Privacidade</span></a>
                             <a id="escolha-perfil" href="#"><span>Notificações</span></a>
@@ -263,66 +263,46 @@
                       <div class="col-9">
                           <div class="col-12">
                               <div class="text-top mt-2 text-center">
-                                  <h2>Perfil Público</h2>
-                                  <p>Adicione Suas Informações</p>
+                                  <h2>Conta</h2>
+                                  <p>Edite suas configurações de conta e altere sua senha aqui.</p>
                                 </div>
                                 <hr class="lineform">
                                 <form>
                                   <div class="col-12">
                                     <div class="mb-3">
-                                        <label for="dadosBasicos" class="form-label"><b> Dados Básicos:</b></label>
-                                        <input type="text" class="form-control todoinput" id="dadosBasicos" placeholder="Nome">
-                                        <input type="text" class="form-control todoinput my-3" id="dadosBasicos" placeholder="Sobrenome">
-                                        <input type="text" class="form-control todoinput mt-3" id="dadosBasicos" placeholder="Profissão ou Título" maxlength="60">
-                                        <button class="p60" disabled="disabled" class="btn btn-light"><p style="margin:0; color:black; font-weight:bold">60</p></button>
-                                        <p class="text-muted" style="font-size: 11px;">Adicione um título profissional, como "Engenheiro na Udemy" ou "Arquiteto".</p>
                                         
-                                        <label for="sedescreva"><b>Fale um pouco sobre você:</b></label>
-                                        <input type="text" class="form-control todoinput" id="sedescreva" placeholder="Descreva-se aqui. Conte um pouco de suas habilidades, e experiências profissionais" minlength="50">
-                                        <p class="text-muted mb-4" style="font-size: 11px;">Não é permitido usar links e códigos de cupom nessa seção.</p>
-                                        <div class="input-group">
-                                            <select class="form-select" id="selecioneidioma">
-                                              <option selected>Português (Brasil)</option>
-                                              <option value="1" style="font-weight: bolder;">-- Selecionar Idioma --</option>
-                                              <option value="2">Inglês</option>
-                                              <option value="3">Espanhol</option>
-                                              <option value="4">Italiano</option>
-                                              <option value="5">Russo</option>
-                                              <option value="6">Polonês</option>
-                                              <option value="7">Indiano</option>
-                                              <option value="8">Português(Brasil)</option>
-                                              <option value="9">Francês</option>
-                                              <option value="10">Romano</option>
-                                              <option value="11">Latim</option>
-                                            </select> 
+                                        <div class="Conta">
+                                            <label for="dadosBasicos" class="form-label"><b> E-mail:</b></label>
+
+                                            <button class="navbar-toggler bg2" type="button" data-toggle="collapse" data-target="#EMAIL" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                                                <span class="navbar-toggler-icon"></span>
+                                                Seu endereço de e-mail é thiago@gmail.com <i class="fas fa-pencil-alt ml-4" style="border: 1px solid;padding:5px ; border-radius: 50;"></i>
+                                              </button>
+                                              <div class="collapse navbar-collapse" id="EMAIL">
+                                                <ul class="navbar-nav">
+                                                  <li class="nav-item dropdown">
+                                                    <a class="nav-link" href="#" id="E-MAIL" role="button" data-toggle="dropdown" aria-expanded="false">
+                                                        <input type="text" class="form-control" placeholder="Caso não seja escreva aqui o correto">
+                                                    </a>
+                                                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="E-MAIL">
+                                                      <li><strong><p id="udemy-business">Transforme o que você sabe em oportunidade e alcance milhões de alunos do mundo todo.</p></strong></li>
+                                                        <li><button class="btn btn-dark" id="testarUdemyBusiness"><p class="font-weight-bold">Saiba Mais</p></button></li>
+                                                    </ul>
+                                                  </li>
+                                                </ul>
+                                              </div> 
+
+                                        </div>
+ 
                                             <hr style="width: 100%; margin-top:10px;">                       
-                                          </div>
-                                          <label for="links"><b>Links:</b></label>
-                                          <input type="text" class="form-control mb-3 todoinput" id="links" placeholder="EX.: site: http(s):SeuSite//todoseu.com">
-                                          
-                                          <div class="input-group ">
-                                            <span class="input-group-text" id="buttondisable">http://twitter.com/</span>
-                                            <input type="text" class="form-control" id="urldisable" placeholder="Seu perfil no Twitter">
-                                        </div>
-                                        <p class="text-muted mb-3" style="font-size: 11px;">Adicione seu nome de usuário do Twitter (ex: Tlucca).</p>
-                                          <div class="input-group ">
-                                            <span class="input-group-text" id="buttondisable">http://www.facebook.com/</span>
-                                            <input type="text" class="form-control" id="urldisable" placeholder="Seu perfil no Facebook">
-                                        </div>
-                                        <p class="text-muted mb-3" style="font-size: 11px;">Digite seu nome de usuário do Facebook (ex: Tlucca).</p>
-                                          <div class="input-group ">
-                                            <span class="input-group-text" id="buttondisable">http://www.linkedin.com/</span>
-                                            <input type="text" class="form-control" id="urldisable" placeholder="Seu perfil no Linkedin">
-                                        </div>
-                                        <p class="text-muted mb-3" style="font-size: 11px;">Adicione seu nome de usuário do Linkedin (ex: Tlucca).</p>
-                                          <div class="input-group ">
-                                            <span class="input-group-text" id="buttondisable">http://www.youtube.com/</span>
-                                            <input type="text" class="form-control" id="urldisable" placeholder="Seu perfil no Youtube">
-                                        </div>
-                                        <p class="text-muted mb-4" style="font-size: 11px;">Adicione seu nome de usuário do Youtube (ex: Tlucca).</p>
+                                        <label for="Senhaconta"><b> Senha:</b></label>
+                                        <input type="password" class="form-control mb-3" id="Senhaconta" placeholder="Digite a senha atual">
+                                        <input type="password" class="form-control my-3" id="Senhaconta" placeholder="Digite a nova senha">
+                                        <input type="password" class="form-control my-3" id="Senhaconta" placeholder="Confirme a nova senha">
+
                                         <hr class="lineform" style="right: 46px;">
 
-                                        <button type="button" class="btn btn-primary btnColor"><p style="margin: 0;">Salvar</p></button>
+                                        <button type="button" class="btn btn-primary btnColor"><p style="margin: 0;">Alterar Senha</p></button>
                                     </div>
                                   </div>                               
                               </form>
@@ -391,6 +371,7 @@
           </div>
         </footer>
       </div>
+ 
     <script src="../js/jquery.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
 </body>
