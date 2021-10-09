@@ -1,0 +1,48 @@
+.logo{
+    font-size: 30px;
+    font-weight: 600;
+}
+.logo i{
+    position: relative;
+    bottom: 20px;
+    left: 20px;
+    color: #9600ff;
+}
+.btn-categoria{
+    color: rgba(0,0,0,.5);
+}
+.btn-categoria:focus-visible{
+    border: none;
+}
+
+.ulcategorias{
+    margin-top: 30px;
+}
+
+/*SEARCH*/
+#buttonSearch{
+border: none;
+}
+.manipulado{
+    width: 400px;
+    border: none;
+    border-radius: 10px;
+}
+#buttontextdrop{
+    display: flex;
+    justify-content: center;
+}
+.btn-droptext{
+    border: none;
+    background-color: #343a40;
+    color: white;
+    font-weight: 700;
+}
+#positionimages{
+    width: 190px;
+    padding-right: 20px;
+}
+.apredizadonline{
+    width: 100%;
+    border: 1px solid rgba(0,0,0,.15);
+}

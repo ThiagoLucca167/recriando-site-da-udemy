@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacidade</title>
+    <title>Notificações</title>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/stylelogin.css">
@@ -251,8 +251,8 @@
                             <a id="escolha-perfil" href="foto.html"><span>Foto</span></a>
                             <a id="escolha-perfil" href="conta.html"><span>Conta</span></a>
                             <a id="escolha-perfil" href="formasdepagamento.html"><span>Formas de Pagamento</span></a>
-                            <a id="escolha-perfil" href="#"style=" color: #fff;border-color: #6a6f73;background: #6a6f73!important;text-decoration: none;"><span>Privacidade</span></a>
-                            <a id="escolha-perfil" href="notificacoes.html"><span>Notificações</span></a>
+                            <a id="escolha-perfil" href="privacidade.html"><span>Privacidade</span></a>
+                            <a id="escolha-perfil" href="#"style=" color: #fff;border-color: #6a6f73;background: #6a6f73!important;text-decoration: none;"><span>Notificações</span></a>
                             <a id="escolha-perfil" href="clientesAPI.html"><span>Clientes API</span></a>
                             <a id="escolha-perfil" href="#"><span>Encerrar Conta</span></a>
 
@@ -263,24 +263,33 @@
                       <div class="col-9">
                           <div class="col-12">
                               <div class="text-top mt-2 text-center">
-                                  <h2>Privacidade</h2>
-                                  <p>Modifique suas configurações de privacidade aqui.</p>
+                                  <h2>Notificações</h2>
+                                  <p>Ative ou desative notificações de promoção por e-mail da Udemy</p>
                                 </div>
                                 <hr class="lineform">
                                 <form>
                                   <div class="col-12">
                                     <div class="mb-3">
-                                        <b>Configurações da página do perfil</b>                   
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="CheckBox"checked>
+                                        <h5><strong>Quero receber:</strong></h5>       
+                                        <div class="form-check bg1">
+                                            <input class="form-check-input" type="checkbox" value="" id="CheckBox">
                                             <label class="form-check-label" for="CheckBox">
-                                                Mostre seu perfil para usuários conectados
+                                                <strong>Promoções, recomendações de cursos e recursos úteis da Udemy.</strong> 
                                             </label>
                                           </div>
-                                          <div class="form-check">
+                                          <div class="form-check bg2">
+                                            <input class="form-check-input" type="checkbox" value="" id="CheckBox2">
+                                            <label class="form-check-label" for="CheckBox2">
+                                                <strong>Anúncios de instrutores dos cursos em que estou inscrito.</strong>
+                                            <p class="text-muted" style="font-size: 13px;">Para ajustar esta preferência por curso, deixe esta caixa marcada, vá para o painel do curso e clique em "Opções" para aceitar ou recurar anúncios específicos.</p> 
+                                            </label>
+                                          </div>
+
+                                          <div class="form-check bg1">
                                             <input class="form-check-input" type="checkbox" value="" id="CheckBox2" checked>
                                             <label class="form-check-label" for="CheckBox2">
-                                                Mostrar os cursos que você está fazendo na página do seu perfil
+                                                <strong>Não me enviar e-mails promocionais.</strong>
+                                            <p class="text-muted" style="font-size: 13px;">Se esta caixa for marcada, você continuará recebendo e-mails transacionais impotantes, como recibos de compra.</p> 
                                             </label>
                                           </div>
                                         <hr class="lineform" style="right: 46px;">

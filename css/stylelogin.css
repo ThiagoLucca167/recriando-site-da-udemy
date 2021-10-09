@@ -164,3 +164,28 @@ flex-direction: row;
     padding: 50px;
     border: 2px dashed#b8b6b6;
 }
+
+/*Notificaçoes*/
+.bg1{
+  border:1px solid;
+  margin: 10px 0px;
+}
+.bg1 input{
+    margin-left: 5px;
+}
+.bg1 label{
+    margin-left: 25px;
+}
+.bg2{
+  border:1px solid;
+  margin-bottom: 35px;
+}
+.bg2 input{
+    margin-left: 5px;
+    margin-top: 25px;
+
+    
+}
+.bg2 label{
+    margin-left: 25px;
+}

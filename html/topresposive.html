@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>campo pesquisa</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/stylelogin.css">
+    <link rel="stylesheet" href="../css/campo-pequisa.css">
+</head>
+<body>
+    <div class="container-fluid" style="background-color: #908e8e38;">
+        <div class="row-fluid">         
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid" style="justify-content: start;flex-direction: row;display: flex;">
+                    <a href="#" class="navbar-brand logo"><i class="fa fa-angle-up"></i>Udemy</a>
+                    <div class="btn-group">
+                        <a class="nav-link btn-categoria" href="#" id="Drop-Categoria" role="button" data-toggle="dropdown" aria-expanded="false">
+                            Categorias
+                          </a>
+                        <ul class="dropdown-menu ulcategorias" aria-labelledby="Drop-Categoria">
+                          <li><a class="dropdown-item" href="#">Desenvolvimento <i class="fa fa-angle-right" style="margin-left: 90px;"></i></a></li>
+                          <li><a class="dropdown-item" href="#">Negócios<i class="fa fa-angle-right" style="margin-left:150px ;"></i></a></li>
+                          <li><a class="dropdown-item" href="#">Finanças e contabilidade <i class="fa fa-angle-right" style="margin-left: 39px;"></i> </a></li>
+                          <li><a class="dropdown-item" href="#">TI e Software <i class="fa fa-angle-right" style="margin-left: 120px;"></i> </a></li>
+                          <li><a class="dropdown-item" href="#">Produtividade no escritório  <i class="fa fa-angle-right" style="margin-left: 21px;"></i> </a></li>
+                          <li><a class="dropdown-item" href="#">Desenvolvimento Pessoal <i class="fa fa-angle-right" style="margin-left: 34px;"></i> </a></li>
+                          <li><a class="dropdown-item" href="#">Desing <i class="fa fa-angle-right" style="margin-left: 163px;"></i> </a></li>
+                          <li><a class="dropdown-item" href="#">Marketing <i class="fa fa-angle-right" style="margin-left: 140px;"></i> </a></li>
+                          <li><a class="dropdown-item" href="#">Estilo de vida <i class="fa fa-angle-right" style="margin-left: 119px;"></i> </a></li>
+                          <li><a class="dropdown-item" href="#">Fotografia e vídeo <i class="fa fa-angle-right" style="margin-left: 84px;"></i> </a></li>
+                          <li><a class="dropdown-item" href="#">Saúde e Fitness <i class="fa fa-angle-right" style="margin-left: 103px;"></i> </a></li>
+                          <li><a class="dropdown-item" href="#">Música <i class="fa fa-angle-right" style="margin-left: 162px;"></i> </a></li>
+                          <li><a class="dropdown-item" href="#">Ensino e estudo acadêmico <i class="fa fa-angle-right" style="margin-left: 20px;"></i> </a></li>
+                        </ul>
+                      </div>
+                      <!--Search-->
+                      <div class="input-group" style="width: 25%;">
+                        <button class="btn btn-outline-secondary" type="button" id="buttonSearch"><i class="fas fa-search"></i></button>
+                        <input type="text" class="manipulado" placeholder="pequise aqui" aria-label="Search Button" aria-describedby="buttonSearch">
+                      </div>
+
+                      <div class="btn-group">
+                          <a href="#" class="nav-link btn-categoria" id="UdemyBusiness" role="button" data-toggle="dropdown" aria-expanded="false">
+                              Udemy Business
+                          </a>  
+                          <ul class="dropdown-menu ulcategorias" aria-labelledby="Drop-Categoria">
+                            <li><p class="dropdown-item"><strong>Sua equipe pode ter acesso a mais de 6.000 <br> cursos de destaque da Udemy a qualquer <br> hora, em qualquer lugar.</strong> </p></li>
+                            <li class="dropdown-item"><a href="#" class="btn btn-droptext" role="button" id="buttontextdrop">Testar Udemy Business</a></li>
+                        </ul>
+                      </div>
+                      <div class="btn-group">
+                        <a href="#" class="nav-link btn-categoria"id="EnsinenaUdemy" role="button" data-toggle="dropdown" aria-expanded="false">
+                            Ensine na Udemy
+                        </a>
+                        <ul class="dropdown-menu ulcategoria" aria-labelledby="Drop-Categoria">
+                            <li><p class="dropdown-item"><strong>Transforme o que você sabe <br> em oportunidade e alcance<br> milhões  de alunos do mundo <br>todo.</strong> </p></li>
+                            <li class="dropdown-item"><a href="#" class="btn btn-droptext" role="button" id="buttontextdrop">Saiba mais</a></li>
+                        </ul>
+                      </div>
+                      <div class="btn-group">
+                        <a href="#" class="nav-link btn-categoria"id="EnsinenaUdemy" role="button" data-toggle="dropdown" aria-expanded="false">
+                            Meu aprendizado
+                        </a>
+                        <ul class="dropdown-menu ulcategoria" aria-labelledby="Drop-Categoria">
+                            <li class="dropdown-item mb-3" style="display: flex;">
+                                <div class="imagem-1">
+                                <img src="../img/topo-drop1.jpeg" alt="Imagem curso 1" id="positionimages">
+                            </div>
+                            <div class="text" style="display: grid;flex-direction: column;">
+                                <p style="margin-bottom: 3px;"><strong>JavaScript - Curso <br> COMPLETO com 6 <br> Projetos REAIS</strong></p>                       
+                                <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 100%;border-radius: 30px;height:50%;" aria-valuenow="53" aria-valuemin="0" aria-valuemax="100">Concluído</div>                        
+                            </div>
+                            </li>
+
+                            <hr class="apredizadonline mb-3">
+
+                            <li class="dropdown-item mb-3" style="display: flex;">
+                                <div class="imagem-1">
+                                <img src="../img/topo-drop2.jpeg" alt="Imagem curso 1" id="positionimages">
+                            </div>
+                            <div class="text" style="display: grid;flex-direction: column;">
+                                <p style="margin-bottom: 3px;"><strong>bootstrap 4 - Completo <br> Prático e Resposivo</strong></p>                       
+                                <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 100%;border-radius: 30px;height:50%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>                        
+                            </div>
+                            </li>
+
+                            <hr class="apredizadonline mb-3">
+
+                            <li class="dropdown-item mb-3" style="display: flex;">
+                                <div class="imagem-1">
+                                <img src="../img/topo-drop3.jpeg" alt="Imagem curso 1" id="positionimages">
+                            </div>
+                            <div class="text" style="display: grid;flex-direction: column;">
+                                <p style="margin-bottom: 3px;"><strong>Curso de Desenvolvimento<br> WEB com E6S, TypeScript e <br> Angular</strong></p>                       
+                                <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 100%;border-radius: 30px;height:50%;" aria-valuenow="53" aria-valuemin="0" aria-valuemax="100">53%</div>                        
+                            </div>
+                            </li>
+
+                            <hr class="apredizadonline mb-3">
+
+                            
+                            <li class="dropdown-item mb-3" style="display: flex;">
+                                <div class="imagem-1">
+                                <img src="../img/topo-drop4.jpeg" alt="Imagem curso 1" id="positionimages">
+                            </div>
+                            <div class="text" style="display: grid;flex-direction: column;">
+                                <p style="margin-bottom: 3px;"><strong>Curso Completo do<br>Desenvolvedor NodeJS e <br> MongoDB</strong></p>                       
+                                <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 100%;border-radius: 30px;height: 30%;" aria-valuenow="53" aria-valuemin="0" aria-valuemax="100">53%</div>                        
+                            </div>
+                            </li>
+                            
+                            <hr class="apredizadonline mb-3">
+                            <li class="dropdown-item"><a href="#" class="btn btn-droptext" role="button" id="buttontextdrop" style="height: 50px;">Acessar Meu Aprendizado</a></li>
+                        </ul>                       
+                      </div>
+
+                </div>       
+            </nav>
+        </div>
+      </div>
+
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+</html>
