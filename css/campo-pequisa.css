@@ -22,11 +22,14 @@
 /*SEARCH*/
 #buttonSearch{
 border: none;
+background: transparent;
+color: black;
 }
 .manipulado{
-    width: 400px;
+    height: 45px;
+    width: 95%;
     border: none;
-    border-radius: 10px;
+    border-radius: 30px;
 }
 #buttontextdrop{
     display: flex;
@@ -39,10 +42,34 @@ border: none;
     font-weight: 700;
 }
 #positionimages{
-    width: 190px;
-    padding-right: 20px;
+    width: 115px;
+    padding-right: 10px;
 }
 .apredizadonline{
     width: 100%;
     border: 1px solid rgba(0,0,0,.15);
+}
+
+/*perfil*/
+#positionperfil{
+    position: absolute;
+    left: -115px;
+    margin-top: 20px;
+}
+.colorliperfil{
+    color: transparent;
+    background-color: transparent;
+}
+.colorliperfil:hover{
+    transition: 1s;
+    background-color: #b5b3b6;
+}
+.colorliperfil a{
+    color: #343a40;
+ text-decoration: none;
+}
+.colorliperfil a:hover{
+    transition: 1s;
+    color:white;
+ text-decoration: none;
 }
