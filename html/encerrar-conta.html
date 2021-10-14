@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formas de pagamento</title>
+    <title>Encerrar Conta</title>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/stylelogin.css">
@@ -238,24 +238,56 @@
     </div>
   </div>
 
+
       <div class="container-fluid">
           <div class="row">
-              <div class="container">
-                  <div class="col-12 mt-5">
-                      <h2 style="font-weight: bolder;">Formas de Pagamento</h2>
+              <div class="container my-3">
+                  <div class="col-12" style="display:flex;border: #a09c9c 1px solid;">
+                    <div class="col-3" style="border-right: #a09c9c 1px solid;padding: 10px 20px 10px 0px">
+                        <div class="col-12" style="display:flex; flex-direction: column;">
+                            <img src="../img/perfil.jpg" alt="Perfil" id="image-perfil">
+                            <h4 class="text-center my-3">Thiago</h4>
 
-                      <div class="form-check mb-4" style="background-color: #e7e7e738;padding:30px;font-size: 18px;">
-                          <input type="checkbox" class="form-check-input" id="checkBox">
-                          <label for="checkBox"class="form-check-label">Mostrar meus métodos de pagamento salvos na etapa de finalização da compra.</label>
-                      </div>
-                      <h4 style="font-weight: bold;" class="mb-4">Suas formas de pagamentos salvas</h4>
-                      <div class="visualpagamento mb-5">Você não tem uma forma de pagamento salva</div>
-                     <a href="editordeperfil.html" style="color: #a49e9e;"><i class="fa fa-arrow-left"> Voltar</i></a> 
+                            <a id="escolha-perfil" href="#"><span>Visualizar Perfil Público</span></a>
+                            <a id="escolha-perfil" href="editordeperfil.html" ><span>Perfil</span></a>
+                            <a id="escolha-perfil" href="foto.html"><span>Foto</span></a>
+                            <a id="escolha-perfil" href="conta.html"><span>Conta</span></a>
+                            <a id="escolha-perfil" href="formasdepagamento.html"><span>Formas de Pagamento</span></a>
+                            <a id="escolha-perfil" href="privacidade.html"><span>Privacidade</span></a>
+                            <a id="escolha-perfil" href="notificacoes.html"><span>Notificações</span></a>
+                            <a id="escolha-perfil" href="clientesAPI.html"><span>Clientes API</span></a>
+                            <a id="escolha-perfil" href="#"style=" color: #fff;border-color: #6a6f73;background: #6a6f73!important;text-decoration: none;"><span>Encerrar Conta</span></a>
+
+                        </div>                         
                     </div>
+
+
+                      <div class="col-9">
+                          <div class="col-12">
+                              <div class="text-top mt-2 text-center">
+                                  <h2>Encerrar conta</h2>
+                                  <p>Encerre sua conta permanentemente.</p>
+                                </div>
+                                <hr class="lineform">
+                                <form>
+                                  <div class="col-12">
+                                    <div class="mb-3">
+                                        <h5><strong>Encerrar sua conta :</strong></h5>       
+                                       <p class="mb-3"> <b style="color: rgb(253, 0, 0);">Aviso:</b> Se encerrar sua conta, você será descadastrado de todos os seus 7 cursos e perderá o acesso para sempre.</a></p>
+  
+                                       <button type="button" class="btn btn-primary" style="background: black; border-color: black;"><span> <strong>Encerrar Conta</strong></span></button>
+
+                                       <hr class="lineform" style="right: 46px;">
+
+                                    </div>
+                                  </div>                               
+                              </form>
+                          </div>
+                      </div>
+                  </div>
               </div>
           </div>
       </div>
-   
 
 
       <!--FOOTER-->
